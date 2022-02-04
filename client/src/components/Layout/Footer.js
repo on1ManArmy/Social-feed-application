@@ -12,9 +12,8 @@ const styles = {
 const Footer = ({ classes }) => (
 	<div className={classes.root}>
 		<MadeWithLove 
-			by="Ngo Huong"
+			by="Abhishek"
 			emoji
-			link="https://github.com"
 		/>
 	</div>
 )

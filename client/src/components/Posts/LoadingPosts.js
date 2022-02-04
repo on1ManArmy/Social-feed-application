@@ -4,15 +4,15 @@ import CircularProgress from '@material-ui/core/CircularProgress'
 
 
 const styles = {
-	load: {
-		textAlgin: 'center',
-		marginTop: 25,
-		width: '100%'
-	},
-	loadIcon: {
-		color: '#8A2BE2'
-	}
-}
+  load: {
+    textAlgin: "center",
+    marginTop: 25,
+    width: "100%",
+  },
+  loadIcon: {
+    color: "#1DA1F2",
+  },
+};
 const LoadingPosts = ({ classes }) => (
 	<div className={classes.load}>
 		<CircularProgress className={classes.loadIcon}/>

@@ -11,7 +11,7 @@ import { registerUser } from '../../actions/authActions'
 const styles = {
 	textField: {
 		width: '100%',
-		marginBottom: 5
+		marginBottom: 5,
 	},
 	btnBlock: {
 		textAlign: 'center',
